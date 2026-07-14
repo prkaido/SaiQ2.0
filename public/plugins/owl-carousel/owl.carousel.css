@@ -1,0 +1,3 @@
+/* Owl Carousel CSS Minimal */
+.owl-carousel {display: flex; width: 100%;}
+.owl-item {flex: 1;}

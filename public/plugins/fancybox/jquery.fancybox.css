@@ -1,0 +1,4 @@
+/* Fancybox CSS Minimal */
+.fancybox {cursor: pointer;}
+.fancybox-wrap {display: none; position: fixed; top: 0; left: 0; z-index: 9999;}
+.fancybox-wrap.active {display: block;}

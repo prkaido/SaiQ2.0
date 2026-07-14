@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^(legacy_php|vendor|storage|bootstrap|app|config|database|resources|routes|tests)(/.*)?$ - [F,L]
+
+    RewriteCond %{REQUEST_URI} !/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+<FilesMatch "^(\.env|composer\.(json|lock|phar)|artisan|package\.json|vite\.config\.js|phpunit\.xml)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

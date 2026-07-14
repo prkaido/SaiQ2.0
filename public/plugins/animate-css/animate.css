@@ -1,0 +1,6 @@
+/* Animate CSS Minimal */
+@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
+@keyframes slideIn {from {transform: translateY(20px);} to {transform: translateY(0);}}
+.animated {animation-duration: 1s;}
+.fadeIn {animation-name: fadeIn;}
+.slideIn {animation-name: slideIn;}

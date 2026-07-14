@@ -1,0 +1,16 @@
+/* PCA COLORES INSTITUCIONALES #009ee3 #ff0202 */
+.pca-turquesa { color: #009ee3 !important; }
+.pca-rojo { color: #ff0202 !important; }
+.pca-turquesa-bg { background-color: #009ee3 !important; color: white !important; }
+.pca-rojo-bg { background-color: #ff0202 !important; color: white !important; }
+.pca-hr { border-top: 3px solid #009ee3 !important; }
+.pca-focus { border-color: #009ee3 !important; box-shadow: 0 0 0 0.2rem rgba(0,158,227,.25) !important; transition: all 0.3s ease !important; }
+.pca-focus-red { border-color: #ff0202 !important; box-shadow: 0 0 0 0.2rem rgba(255,2,2,.25) !important; }
+.pca-form { border: 2px solid #009ee3 !important; border-radius: 8px !important; transition: all 0.3s ease !important; }
+.pca-btn { background: linear-gradient(135deg, #ff0202, #cc0101) !important; border: 2px solid #ff0202 !important; color: white !important; font-weight: 700 !important; padding: 15px 50px !important; border-radius: 4px !important; transition: all 0.3s ease !important; }
+.pca-btn:hover { background: linear-gradient(135deg, #cc0101, #aa0000) !important; box-shadow: 0 4px 12px rgba(255,2,2,0.4) !important; transform: translateY(-1px) !important; }
+.pca-titulo { color: #ff0202 !important; font-weight: 700 !important; font-size: 1.3em !important; border-bottom: 3px solid #009ee3 !important; padding-bottom: 10px !important; }
+.pca-panel { box-shadow: 0 4px 20px rgba(0,158,227,0.15) !important; }
+.dropdown-menu.open { display: block; }
+@media (max-width: 768px) { .pca-input { font-size: 16px !important; } }
+
